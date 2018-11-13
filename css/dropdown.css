@@ -10,12 +10,15 @@
 
 /*estilizando os links*/
 #dropdown li a {
-    color:#333; text-decoration:none; padding:5px 10px; display:block;
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display: none;
 }
 
 
 #dropdown li a:hover {
-    background:#333; 
+    background:#B56357; 
     color:#fff; 
     -moz-box-shadow:0 3px 10px 0 #CCC; 
     -webkit-box-shadow:0 3px 10px 0 #ccc; 
@@ -37,8 +40,15 @@
 }
 
 #dropdown-options {
+    display: inline-block;
     border: 2px solid #B56357;
     padding: 10px;
     border-radius: 20px;
-    margin-top: 40px;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+#dropdown-menu {
+    width: 300px;
+    margin: 0 auto;
 }

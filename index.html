@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dropdown.css">
   </head>
   <body>
   <section id="main">
@@ -22,7 +23,7 @@
     <section id="tribute-info">
       <div class="bio-div">
         <p id="title-bio">Saiba quem foi Nikola Tesla e conheça suas principais contribuições para a humanidade</p>
-        <input id="search-input" type="search" placeholder="Digite um ano">
+        <input id="search-input" type="search" placeholder="Pesquise aqui">
         <ul id="biography-list">
           <li>Nikola Tesla nasceu no dia 10 de julho de 1856 na Áustria</li>
           <li>Filho de um sacerdote ortodoxo, desde pequeno, foi treinado por seu pai para desenvolver a memória e o raciocínio. Sua mãe era descendente de família de inventores.</li>
@@ -40,12 +41,33 @@
       </div>
       <div>
         <p id="final-quote">"Não creio que haja uma emoção mais intensa para um inventor do que ver suas criações funcionando. Essas emoções fazem você esquecer de comer, de dormir, de tudo."</p>
-        <p>Se quiser saber um pouco mais sobre esse ser humano incrível, acesse a acesse sua biografia completa
+        <p id="more-about">Se quiser saber um pouco mais sobre esse ser humano incrível, acesse a acesse sua biografia completa
           <a id="tribute-link" href="https://www.ebiografia.com/nikola_tesla/" target="blank">aqui</a>.</p>
       </div>
     </section>
-
+    <section>
+      <div>
+        <ul id="dropdown">
+        <a id="dropdown-options">Saiba mais sobre outros inventores</a>
+        <div id="dropdown-menu">
+          <li><a href="https://www.ebiografia.com/santos_dumont/">Santos Dumont</a></li>
+          <li><a href="https://www.ebiografia.com/joao_gutenberg/">João Gutenberg</a></li>
+          <li><a href="https://www.ebiografia.com/richard_arkwright/">Sir Richard Arkwright</a></li>
+          <li><a href="https://www.ebiografia.com/thomas_edison/">Thomas Edison</a></li>
+          <li><a href="https://www.ebiografia.com/johannes_gutenberg/">Johannes Gutenberg</a></li>
+          <li><a href="https://www.ebiografia.com/alexander_graham_bell/">Alexander Graham Bell</a></li>
+          <li><a href="https://www.ebiografia.com/samuel_morse/">Samuel Morse</a></li>
+          <li><a href="https://www.ebiografia.com/nicolas_appert/">Nicolas-François Appert</a></li>
+          <li><a href="https://www.ebiografia.com/henry_ford/">Henry Ford</a></li>
+          <li><a href="https://www.ebiografia.com/gregor_mendel/">Gregor Mendel</a></li>
+        </div>
+      </ul>
+      </div>
+    </section>
   </section>
   <footer>&copy; 2018 Made with <img id="heart" src="img/heart.png" alt="Coraçãozinho"> by Natália Kikuchi</footer>
+
+  <script src="js/script.js" type="text/javascript"></script>
   </body>
 </html>
+
